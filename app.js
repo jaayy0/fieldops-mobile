@@ -10,14 +10,14 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen
-                    name="CreateIncident"
-                    component={CreateIncidentScreen}
-                    options={{ title: "Nueva incidencia" }}
-                />
-                <Stack.Screen
                     name="IncidentList"
                     component={IncidentListScreen}
                     options={{ title: "Incidencias" }}
+                />
+                <Stack.Screen
+                    name="CreateIncident"
+                    component={CreateIncidentScreen}
+                    options={{ title: "Nueva incidencia" }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
